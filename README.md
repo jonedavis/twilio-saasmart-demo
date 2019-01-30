@@ -1,7 +1,10 @@
 
+
 # Send notifications on different channels with Twilio and SendGrid.
 
 This repository demonstrates how to send notifications over SMS, WhatsApp, Voice (calls), and Email.
+
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). Then an Express server was added in the `server` directory. The server is proxied via the `proxy` key in `package.json`.
 
 ### Requirements:
 1. [Twilio Account](https://www.twilio.com/console)
@@ -9,7 +12,12 @@ This repository demonstrates how to send notifications over SMS, WhatsApp, Voice
 
 > To send messages with WhatsApp in production, you have to wait for WhatsApp to formally approve your account. But, that doesn't mean you have to wait to start building. Twilio Sandbox for WhatsApp lets you test your app in a developer environment.
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). Then an Express server was added in the `server` directory. The server is proxied via the `proxy` key in `package.json`.
+### Product documentation:
+1. [Programmable SMS](https://www.twilio.com/docs/sms)
+2. [Programmable Voice](https://www.twilio.com/docs/voice)
+	3. [Amazon Polly TTS TwiML](https://www.twilio.com/docs/voice/twiml/say/text-speech#voices)
+3. [WhatsApp](https://www.twilio.com/docs/sms/whatsapp/api)
+4. [Email](https://sendgrid.com/docs/for-developers/)
 
 ## Using this project
 Clone the project, change into the directory and install the dependencies.
