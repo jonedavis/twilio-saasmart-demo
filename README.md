@@ -22,7 +22,7 @@ cd twilio-saastr-demo
 npm install
 
 ```
-Create a `.env` file for environment variables in your server.
+Create a `.env` file for environment variables in the root directory of this project.
 
 Example:
 ```bash
@@ -30,7 +30,7 @@ TWILIO_ACCOUNT_SID=ACCOUNT_SID_HERE
 TWILIO_AUTH_TOKEN=AUTH_TOKEN_HERE
 SENDGRID_API_KEY=API_KEY_HERE
 ```
-Learn more about setting your .env from Twilio's blog post, [How To Set Environment Variables](https://www.twilio.com/blog/2017/01/how-to-set-environment-variables.html).
+Read the blog post [How To Set Environment Variables](https://www.twilio.com/blog/2017/01/how-to-set-environment-variables.html) to learn more.
 
 You can start the server on its own with the command:
 ```bash
