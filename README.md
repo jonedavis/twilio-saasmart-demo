@@ -15,9 +15,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Product documentation:
 1. [Programmable SMS](https://www.twilio.com/docs/sms)
 2. [Programmable Voice](https://www.twilio.com/docs/voice)
-	*. [Amazon Polly TTS TwiML](https://www.twilio.com/docs/voice/twiml/say/text-speech#voices)
-3. [WhatsApp](https://www.twilio.com/docs/sms/whatsapp/api)
-4. [Email](https://sendgrid.com/docs/for-developers/)
+3. [Amazon Polly TTS TwiML](https://www.twilio.com/docs/voice/twiml/say/text-speech#voices)
+4. [WhatsApp](https://www.twilio.com/docs/sms/whatsapp/api)
+5. [Email](https://sendgrid.com/docs/for-developers/)
 
 ## Using this project
 Clone the project, change into the directory and install the dependencies.
